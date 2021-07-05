@@ -6,6 +6,6 @@ Alaw.v is the compressor and deAlaw.v is the decompressor. The compressor accept
 Similarly, the decompressor partially restores from 8 to 12 bits. A-law is lossy compression and is well suited for speech
 and audio compression.
 
-Toptest.v and Alaw_tb.v can be used to verify the algorithm.
+topTest.v and Alaw_tb.v can be used to verify the algorithm.
 
 This code was loosely based on https://github.com/thejithinmathew/A-Law-Compander.
